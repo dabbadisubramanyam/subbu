@@ -7,4 +7,14 @@ c=a+b;
 printf("result=%d",c)
 }
 
+// same program using //
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("enter the values of a and b \n");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("result=%d',c);
+}
 
